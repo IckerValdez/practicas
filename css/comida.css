@@ -1,0 +1,87 @@
+/*DOCUMENTO CSS*/
+*{margin: 0%;
+    padding: 0%;
+    border-spacing: 0cap;}
+
+h1 { text-align: center;
+background-color: rgb(188, 0, 0); 
+text-transform: uppercase;
+color: rgb(255, 255, 255);
+width: 60%;
+margin: auto;
+text-shadow: 0px 0px 3px black;
+}
+
+h1::before {content: "";
+display: block;
+width: 50px;
+height: 50px;
+background-image: url(/img/restaurant-logos-png-png_25706.jpg);
+background-size: 100%; 
+position: absolute;
+left: 590px;}
+
+.cabecera {
+    width: 100%;
+    min-height: 1px;
+    background-color: #000000;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+img{
+  
+}
+
+    .Nombre {
+        color: white;
+        
+        margin: 0px auto 20px auto;
+    width: 400px;
+    background-color: #6c0000;
+    padding: 10px;
+     }
+    
+     img {
+        width: 10cm;
+        padding: 10%;
+     }
+
+    .Ingredientes {
+        color: white;
+        margin: 0px auto 20px auto;
+    width: 400px;
+    background-color: #6c0000;
+    padding: 10px;
+    
+    }
+    .Precio{
+        color: white;
+        margin: 0px auto 20px auto;
+        width: 400px;
+        background-color: #6c0000;
+        padding: 10px;
+    }
+
+
+
+
+.contenido p {padding: 20px 0px ;
+line-height: 1.3;
+font-size: 1.5cap;}
+
+.pie {height: 80px;
+    background: rgb(115,173,223);
+    background: linear-gradient(125deg, rgba(115,173,223,1) 0%, rgba(89,89,89,1) 100%); ;
+text-align: center;
+
+}
+
+.pie span {line-height: 2cm;
+color: white;
+}
+
+
+
+
+
+

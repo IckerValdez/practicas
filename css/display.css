@@ -1,0 +1,47 @@
+/*DOCUMENTO CSS*/
+
+* {margin: 0;
+    padding: 0;}
+
+section, div {box-sizing: border-box;}
+
+h2 { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+
+}
+
+.container {display: flex;
+           
+            padding: 15px;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            min-height: 150px;
+            width: 60%;
+            margin: 0% auto;
+            
+        }
+
+.item {
+    
+    width: 50%;
+    padding: 15px;
+    
+    
+}
+
+.item p { padding-bottom: 20px;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+    color: rebeccapurple;}
+.item img {width: 100%;
+            height: auto;
+        border-radius: 10px;
+        border: 8px solid white;
+        box-shadow: 0 0 3px black;
+    box-sizing: border-box;}
+
+.segundo { align-self: flex-start;}
+
+.firu {
+    padding: 0px;
+}

@@ -1,0 +1,79 @@
+/*DOCUMENTO CSS*/
+*{margin: 0%;
+    padding: 0%;
+    border-spacing: 0cap;}
+
+h1 { text-align: center;
+background-color: whitesmoke;
+text-transform: uppercase;
+color: white;
+width: 60%;
+margin: auto;
+text-shadow: 0px 0px 3px black;
+}
+
+h1::before {content: "";
+display: block;
+width: 50px;
+height: 50px;
+background-image: url(/img/corazón.svg.png);
+background-size: 100%; 
+position: absolute;
+top: 90px;
+left: 590px;}
+
+.cabecera {
+    width: 100%;
+    min-height: 1px;
+    background-color: #73addf;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+
+.tablas {   }
+
+.tablas table {margin: 0px auto 20px auto;
+    width: 400px;
+    background-color: rgb(160, 206, 250);
+    padding: 10px;
+}
+
+.tablas tr {background-color: aliceblue;}
+
+.contenido {width: 80%;
+margin: auto;}
+
+.contenido p {padding: 20px 50px ;
+line-height: 1.3;
+font-size: 1.5cap;}
+
+.pie {height: 80px;
+    background: rgb(115,173,223);
+    background: linear-gradient(125deg, rgba(115,173,223,1) 0%, rgba(89,89,89,1) 100%); ;
+text-align: center;
+
+}
+
+.pie span {line-height: 2cm;
+color: white;
+}
+
+.tablas tr:first-child {
+    background-color: #5c96c9;
+}
+
+.contenido p:nth-child(even) {color: red;}
+
+.contenido a:link{color: red;
+    text-decoration: none;
+  text-transform: uppercase;}
+
+  .contenido a:hover {color: blueviolet;
+  background-color: black;}
+
+  .contenido a:active {font-size: 3cm;
+  background-color: transparent;}
+
+  p.letra::first-letter{font-size:  5em;
+float: left;
+padding-right: 5px; }

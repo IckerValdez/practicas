@@ -1,0 +1,65 @@
+/*DOCUMENTO CSS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {font-family: "Bebas Neue", sans-serif;}
+/*ENCABEZADOS*/
+h1 {color: whitesmoke;
+    text-shadow: 0px 0px 10px rgb(5, 8, 209);}
+
+h2 { padding-bottom: 15px ;
+    font-size: 2em;}
+
+/*LAYOUT*/
+
+.cabecera {min-height: 1px;
+            padding: 20px 0px;
+            text-align: center;
+            background: rgb(2,0,36);
+            background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            color: white;}
+
+.cuerpo {
+    min-height: 1000px;
+    padding: 0px 0px 60px 0px;
+    background: url(/img/freepik.avif);
+    background-size: 200px;
+    
+}
+
+.contenido {
+    background: rgb(9,9,121);
+    background: linear-gradient(0deg, rgb(116, 204, 255) 0%, rgba(255,255,255,0) 24%);
+    display: flex;
+    padding: 50px 20% 60px 20%;
+}
+
+.contenido p {font-size: 22px;
+            line-height: 1.5;}
+
+.contenido div {width: 50%; }
+
+.pie {
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    min-height: 90px;
+    padding-top: 80px;
+}
+
+
+.formulario input, .formulario textarea {width: 100%;
+                                           height: 40px;
+                                           border-radius: 3px;
+                                           border: 1px solid rgb(22, 171, 179);
+                                           box-shadow: 0px 0px 4px blue ;
+                                           margin-bottom: 8px;}
+
+.formulario textarea { max-width: 100%;
+                        min-width: 100%;
+                    max-height: 200px;
+                    min-height: 100;}
+
+#btn {width: 200px;}

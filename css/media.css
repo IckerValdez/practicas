@@ -1,0 +1,52 @@
+/*DOCUMENTO CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section, div {box-sizing: border-box; }
+
+h3 {
+    color: gray;
+}
+
+.contenedor { display: flex;
+            width: 100%;
+            background: purple;
+            padding: 15px;
+            flex-flow: column wrap;}
+
+.items { width: 100%;
+        background: orange;
+        margin-bottom: 15px; }
+
+/*Media Queries*/
+
+        @media only screen and (min-width: 580px) {
+            h3 {color: whitesmoke;
+            text-align: center;}
+            .items { height: 100px;
+                    background: yellowgreen;}
+
+        }
+/*PANTALLAS DE MAS DE 780PX*/
+@media only screen and (min-width: 780px){
+    .contenedor {background: blue;}
+    h3 { color: blue;}
+}
+
+
+/*PANTALLAS DE MAS DE 1380PX*/
+@media only screen and (min-width: 1380px ) {
+    .contenedor {
+        flex-flow: row wrap;
+        width: 60%;
+        margin: auto;
+    }
+
+    .items {
+        width: 33.33%;
+        margin-bottom: 0px;
+    }
+}

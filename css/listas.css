@@ -1,0 +1,29 @@
+/*DOCUMENTO CSS*/
+*{margin: 0;
+  padding: 0;}
+
+header, div, article, nav {box-sizing: border-box;}
+body {
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-family: 'Arial', sans-serif; 
+  color: #33475b;    
+}
+
+
+
+h1 { background-color: palegreen;
+   color: green;
+   text-align: center;
+   padding: 15px 0px;}
+
+.segundo {color: blueviolet;}
+  
+.lista { width: 60%;
+            min-height: 1px;
+            background-color: rgb(158, 255, 149);
+            margin: 15px auto 15px auto;  
+            padding: 15px 15px 15px 15px;}
+
+.relleno {padding-left: 30px;}

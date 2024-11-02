@@ -1,0 +1,54 @@
+/*DOCUMENTO CSS*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffd0a6;
+    margin: 0;
+    padding: 20px;
+
+
+}
+
+.contenedor {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    background: rgb(246, 254, 136);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgb(0, 133, 38);
+}
+
+.info-receta {
+    flex: 0 0 50%; 
+    padding: 20px;
+}
+
+.imagen-receta {
+    flex: 0 0 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.imagen-receta img {
+    max-width: 70%;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.ingredientes, .instrucciones {
+    margin: 20px 0;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}

@@ -1,0 +1,58 @@
+/*DOCUMENTO CSS*/
+
+* {
+    margin: 0;
+    padding: 3px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.redes {
+    display: flex;
+    width: 200px;
+    margin: 20px auto;
+    min-height: 1px;
+   
+    
+}
+
+.redes a {
+    width: 33.33%;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(0, 255, 119);
+}
+
+/*Media Queries*/
+
+@media only screen and (min-width: 580px) {
+    h1 {color: whitesmoke;
+    text-align: center;}
+    .logos { height: 100px;
+            background: rgb(6, 255, 251);}
+    .redes a {background: rgb(255, 167, 167);}
+
+}
+/*PANTALLAS DE MAS DE 780PX*/
+@media only screen and (min-width: 780px){
+.contenedor {background: rgb(128, 255, 0);}
+.redes a { color: rgb(255, 0, 208);}
+.logos {background: pink;}
+}
+
+@media only screen and (min-width: 1380px ) {
+.contenedor {
+flex-flow: row wrap;
+width: 50%;
+margin: auto;
+{background: rgb(128, 255, 0);}}
+.redes a { color: rgb(255, 0, 208);}
+.logos {background: rgb(231, 154, 255);}
+}
+}
+
+.logos {
+width: 33.33%;
+margin-bottom: 15px;
+}

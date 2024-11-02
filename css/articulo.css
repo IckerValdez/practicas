@@ -1,0 +1,46 @@
+/*DOCUMENTO CSS*/
+*{margin: 0;
+    padding: 0;
+  background-color: rgb(0, 8, 118);}
+  
+  header, div, article, nav {box-sizing: border-box;}
+  
+  
+  h1 { background-color: rgb(0, 8, 118);
+     color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 15px 0px;}
+
+     .table {padding: auto;}
+     div {text-align: center;}
+
+  h2 { background-color: rgb(0, 8, 118);
+  color: white;
+text-align: center;}
+  div p {background-color: rgb(0, 8, 118);
+  color: white;
+  text-align: center;}
+
+table {text-align: center;
+align-content: center;
+margin: auto;}
+
+footer {text-align: center;}
+
+img {text-align: center;}
+
+.class2 { text-align: center;}
+.h22 {background-color: rgb(216, 216, 216);
+color: black;}
+.p22 {background-color: rgb(216, 216, 216);
+color: black;}
+
+.contenidoa:link{color: red;
+      text-decoration: none;
+    text-transform: uppercase;}
+
+    .contenidoa:hover {color: blueviolet;
+    background-color: black;}
+
+    .contenidoa:active {font-size: 3cm;
+    background-color: transparent;}

@@ -1,0 +1,18 @@
+/* Documento css */
+
+body {background-color: darkgray;
+    font-family: "Protest Guerrilla", sans-serif;}
+
+h1, h3 {color: chartreuse ;
+     font-size: 2cm;
+     text-align: center;
+     font-weight: bold; 
+    text-transform: uppercase;
+    text-decoration: underline;}
+
+h2, h4 {color: green;}
+
+div p small {color: red;}
+
+div p {line-height: 1cm;}
+
