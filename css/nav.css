@@ -1,0 +1,101 @@
+/*Documento CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header, div, nav, a {box-sizing: border-box;}
+
+
+    .birthstone-regular {
+        font-family: "Birthstone", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
+
+/*Encabezado*/
+
+h1 {}
+
+h2 {}
+
+/*LAYOUT*/
+.cabecera { width: 100%;
+            min-height: 1px;
+            background: burlywood;}
+
+.bar { 
+    width: 100%;
+    background: rgb(121, 68, 0);
+    min-height: 1px;
+}
+body {
+      font-family: "Birthstone", cursive;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+
+.menu{ 
+    width: 100%;
+    min-height: 1px;
+}
+
+.links {
+    width: 100%;
+    min-height: 1px;
+    padding: 0px 0px;
+    display: flex;
+
+}
+
+.items{
+    width: 25%;
+    min-height: 30px;
+    height: 40px;
+    text-align: center;
+    padding: 8px 0px 16px 0px;
+    border: 2.5px solid rgb(85, 54, 13);
+    background-color: rgb(205, 156, 107);
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+.items:active {
+    background: rgb(85, 54, 13);
+    color: whitesmoke;
+
+}
+
+.logo {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    padding: 8px 0px;
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    .links {width: 70%;
+            margin: auto;}
+
+            .items.first-child {
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+
+            }
+
+            .links {position: relative
+            top: 15px}
+}
